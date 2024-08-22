@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+  environment = { NPM_FLAGS = "--legacy-peer-deps" }
+
+[build.environment]
+  NPM_FLAGS = "--legacy-peer-deps"
